@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Equipos, utensilios y herramientas de la cocina internacional',
+    Name: 'Cocina americana',
     Description:
-      'Las normas de higiene y seguridad en la cocina aseguran la limpieza, el orden y la prevención de accidentes. Destacan prácticas como lavarse las manos, usar ropa ajustada y mantener áreas limpias. Herramientas internacionales incluyen el caquelón, tajín y molcajete, representando tradiciones culinarias. La cocina internacional resalta sabores únicos de países como Argentina, España, Turquía y México.',
+      'La gastronomía de América incluye platos icónicos como el <em>clam chowder</em> de Nueva Inglaterra, la barbacoa de Virginia, el <em>jambalaya</em> de Louisiana, los tacos de México, el <em>mofongo</em> de Puerto Rico, el ceviche peruano, y el <em>choripán</em> argentino. Destacan técnicas como marinados prolongados, cocción lenta y el uso de ingredientes autóctonos que realzan sabores únicos en cada región.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,19 +36,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Normas de higiene',
+        titulo: 'Cocina de Norte América',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Herramientas y equipos de cocina internacional',
+        titulo: 'Cocina de Centro América',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Cocina internacional',
+        titulo: 'Cocina de Sur América',
         desarrolloContenidos: true,
       },
     ],

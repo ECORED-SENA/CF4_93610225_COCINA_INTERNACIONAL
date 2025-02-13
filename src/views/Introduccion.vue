@@ -8,25 +8,34 @@
         span
           i.fas.fa-info
       h1 Introducción
-    
-    .bg-full-width.bg-fondo-1
-      .px-5.pb-5
-
-        p(data-aos="fade-up").mb-4 La cocina es un espacio donde se combinan creatividad, cultura y técnicas específicas para la preparación de alimentos. Para garantizar la calidad y seguridad de las comidas, es fundamental cumplir con normas de higiene que eviten contaminaciones, y normas de seguridad que prevengan accidentes, permitiendo un ambiente ordenado y adecuado para trabajar.
-
-        .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Además, las herramientas y utensilios de cocina son esenciales para facilitar procesos y explorar las tradiciones culinarias de diversas culturas. Desde el caquelón suizo hasta el tajín marroquí, cada utensilio cuenta una historia, conservando prácticas tradicionales y permitiendo innovaciones en la preparación de platillos.
 
 
-        .row.align-items-center
-          .col-lg-auto(data-aos="fade-right").d-none.d-lg-block
-            img(src="@/assets/curso/intro/2.svg", style="max-width: 85px", alt="").m-auto.mb-4.mb-lg-0
-          .col-lg(data-aos="fade-left")
-            p.mb-0 Por último, la cocina internacional refleja la riqueza cultural de los países a través de sus sabores e ingredientes únicos. Argentina, España, Turquía y México son ejemplos de cómo cada región aporta su identidad, fusionando tradiciones que enriquecen el panorama global de la gastronomía.
+    .row.align-items-center.mb-4
+      .col-lg-auto.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/intro/1.svg", alt="alt")
+      .col-lg
+        p(data-aos="fade-up").mb-0 La gastronomía de América es un reflejo de su rica diversidad cultural, histórica y geográfica. Cada región del continente ha desarrollado platos únicos que combinan ingredientes autóctonos con influencias internacionales, creando una cocina llena de sabores y técnicas distintivas. Desde el norte hasta el sur, la comida representa no solo tradiciones culinarias, sino también la identidad de sus pueblos.
+
+    .row.mb-4
+      .col-lg-9
+        .bg-color-3(data-aos="fade-up").mb-4
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              figure
+                img(src='@/assets/curso/intro/2.png', alt='')
+            .col-lg
+              .p-4.pe-lg-5
+                p.mb-0(data-aos="fade-up") En Norteamérica, destacan preparaciones como el clam chowder de Nueva Inglaterra y la barbacoa de Virginia, que muestran el ingenio en el uso de ingredientes locales y técnicas de cocción como la parrilla y la cocción lenta. Por su parte, Centroamérica cautiva con sabores intensos y el protagonismo del maíz en platos como los tacos y las pupusas, íconos de la cocina mexicana y salvadoreña respectivamente.
+
+        p(data-aos="fade-up").mb-0 Suramérica ofrece una explosión de sabores a través de preparaciones emblemáticas como el ceviche peruano, la feijoada brasileña y el choripán argentino. Estas delicias, junto a otras como el horneado de chancho ecuatoriano y el matambre argentino, demuestran la versatilidad de sus ingredientes y el valor de las técnicas tradicionales transmitidas de generación en generación.
+
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/intro/3.png', alt='')
+              
+              
+
 </template>
 
 <script>
