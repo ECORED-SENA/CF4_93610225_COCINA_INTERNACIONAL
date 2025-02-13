@@ -99,21 +99,90 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Cocina de Norte América.',
+      referencia:
+        'SENA. (2012). Cocina internacional cap 4 [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9Ql1vdfQsLw&ab_channel=SENA',
+    },
+    {
+      tema: 'Cocina de Norte América.',
+      referencia:
+        'Food Wishes. (2017). Tourtiere - Pastel de carne navideño - Food Wishes. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0TKzJZQc6fl&ab_channel=FoodWishes',
+    },
+    {
+      tema: 'Cocina de Centro América.',
+      referencia:
+        'TULIO Recomienda. (2022). Cómo hacer los MEJORES TACOS CASEROS | ¡Con tus Propias Tortillas! | Receta Fácil . [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=uFGFtLB7hWw&ab_channel=TULIORecomienda',
+    },
+    {
+      tema: 'Cocina de Sur América.',
+      referencia:
+        'Buenazo!. (2020). Receta de la causa limeña de pollo peruana • Receta casera • Peruvian food | BUENAZO!. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=UbbSMZrosZk&ab_channel=Buenazo%21',
+    },
+    {
+      tema: 'Cocina de Sur América.',
+      referencia:
+        'COOK WOW. (2018). CHORIPAN - Cómo hacer Choripanes 🌭 (#56).',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=1k7XUYc8s7c&ab_channel=COOKWOW',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alcapurrias',
+      significado:
+        'fritura hecha de plátanos rallados o yautía, rellena de carne.',
+    },
+    {
+      termino: 'Asado',
+      significado: 'carne asada.',
+    },
+    {
+      termino: 'Barbecue ribs',
+      significado: 'costillas a la barbacoa.',
+    },
+    {
+      termino: '<em>Bowl</em>',
+      significado: 'tazón.',
+    },
+    {
+      termino: 'Causa limeña',
+      significado: 'preparación peruana de origen precolombino.',
+    },
+    {
+      termino: 'Ceviche',
+      significado:
+        'preparación hecha a base de pescado o marisco crudo, limón o naranja, cebolla, sal y ají.',
+    },
+    {
+      termino: 'Chivito',
+      significado:
+        'pan relleno de carne asada a la plancha, con varios aditivos.',
+    },
+    {
+      termino: '<em>Congrí</em>',
+      significado: 'preparación de arroz con frijoles negros.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Cocinachic.net. (2015). <em>Ceviche</em>.',
+      link: '',
+    },
+    {
+      referencia: 'Madcaro. (2011). <em>Clam chowder</em>.',
+      link: '',
+    },
+    {
+      referencia: 'Wixstatic. (2016). <em>Horneado de chancho</em>. ',
       link: '',
     },
   ],

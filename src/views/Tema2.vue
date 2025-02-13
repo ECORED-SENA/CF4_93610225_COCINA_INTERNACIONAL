@@ -5,148 +5,127 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Herramientas y equipos de cocina internacional
+      h1 Cocina de Centro América
 
 
-    .row.justify-content-center.align-items-center.my-5
-      .col-lg
-        p(data-aos="fade-up").mb-4 Las herramientas y equipos de cocina internacional representan la riqueza cultural y las tradiciones culinarias de diferentes países. Cada utensilio tiene una función específica que facilita la preparación de platos característicos de diversas regiones, permitiendo no solo preservar recetas tradicionales, sino también innovar en la cocina.
+    .bg-full-width.bg-fondo-1
+      .px-4.px-md-5.pb-5
 
-        p(data-aos="fade-up").mb-4 A continuación, se presentan algunas de las herramientas más destacadas y su uso:
+        .row.align-items-center.mb-5
+          .col-lg-auto.d-none.d-lg-block
+            figure
+              img(src="@/assets/curso/tema2/1.svg", alt="alt")
+          .col-lg
+            p(data-aos="fade-up").mb-0 La cocina de Centro América se distingue por su uso de ingredientes autóctonos como el maíz, el plátano y las especias, que se combinan para crear platos llenos de sabor y tradición.
 
-      .col-lg-auto
-        figure
-          img(src='@/assets/curso/tema2/1.svg', style="max-width: 134px", alt='').m-auto
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4 Tacos
 
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-5
+            figure
+              img(src="@/assets/curso/tema2/2.png", alt="alt")
+          .col-lg-7
+            p(data-aos="fade-up").mb-4 Tortilla de maíz rellena de carne u otras materias primas cárnicas, vegetales como el pimentón, cebollas y los infaltables cilantro y tomate, productos legendarios en la cocina mexicana.
 
-    .bg-full-width.bg-fondo-3
-      .px-4.px-md-5.pb-md-3
+            .p-4.bg-color-4
+              .row.align-items-center.mb-4
+                .col-lg-auto.d-none.d-lg-block
+                  figure
+                    img(src="@/assets/curso/tema2/3.svg", alt="alt")
+                .col-lg
+                  p(data-aos="fade-up").mb-0 La comida popular mexicana tiene gran aceptación a nivel mundial y parte del principio indígena del uso del maíz, como se puede constatar en la preparación de los tacos.
 
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/2.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Caquelón
-                p.mb-0 Utensilio tradicional de Suiza y Francia usado para preparar fondues de queso.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/3.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Cazos
-                p.mb-0 Recipiente metálico alto y estrecho, utilizado para cocinar al fogón o al baño de maría.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/4.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Raclette
-                p.mb-0 Utensilio suizo que comparte nombre con un queso elaborado con leche cruda de vaca.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/5.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Cuchara Parisien
-                p.mb-0 Herramienta con medias esferas en los extremos para formar bolas de vegetales, frutas u otros alimentos.
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4 Mofongo
+
+        p(data-aos="fade-up").mb-4 Hablar de mofongo es casi como hablar de la música salsa de Puerto Rico.
 
 
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/6.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Crepera
-                p.mb-0 Máquina o placa usada para preparar crepes, galettes, tortas y panqueques.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/7.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Esterilla de Sushi
-                p.mb-0 Alfombrilla de bambú para dar forma a los rollos de sushi.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/8.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Donabe
-                p.mb-0 Olla de arcilla tradicional japonesa usada directamente sobre la llama.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/9.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Laminadora de pasta
-                p.mb-0 Utensilio mecánico o automático para extender y cortar pasta.
+        .row.justify-content-center.align-items-stretch.my-5
+          .col-lg-5
+            .tarjeta.bg-color-5.p-4.h-100
+              p(data-aos="fade-up").mb-3 #[strong Ingredientes para 4 personas]
+
+              ul.lista-ul--color
+                li.mb-1
+                  i.fas.fa-check-circle
+                  | 1 plátano pintón.
+                li.mb-1
+                  i.fas.fa-check-circle
+                  | 3 dientes de ajo.
+                li.mb-1
+                  i.fas.fa-check-circle
+                  | 200 g de tocino de cerdo o 40 g de tocineta.
+                li.mb-1
+                  i.fas.fa-check-circle
+                  | 1 g de pimienta.
+                li.mb-1
+                  i.fas.fa-check-circle
+                  | 40 g de mantequilla.
+                li.mb-1
+                  i.fas.fa-check-circle
+                  | 3 g de sal.
+                li.mb-0
+                  i.fas.fa-check-circle
+                  | 100 ml de aceite de girasol.
+          .col-lg-5
+            figure
+              img(src="@/assets/curso/tema2/4.png", alt="alt")
+
+        p(data-aos="fade-up").mb-4 El proceso de preparación es:
+
+        div.row.justify-content-center.align-items-stretch.mb-5
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            .tarjeta.bg-color-6.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/5.svg"
+                alt=""
+                style="width: 90px"
+              )
+              p.mb-0.text-center Pelar el plátano y cortarlo en troncos de 2 cm, freír en aceite caliente y reservar.
+          
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            .tarjeta.bg-color-6.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/6.svg"
+                alt=""
+                style="width: 90px"
+              )
+              p.mb-0.text-center Pelar el ajo, cortarlo en brunoise fino (cuadros de 0,5 cm) y saltearlo junto con el tocino de cerdo previamente cortado en small dice (cuadros de 0,6 cm) y la mantequilla. Retirar y reservar.
+          
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            .tarjeta.bg-color-6.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/7.svg"
+                alt=""
+                style="width: 90px"
+              )
+              p.mb-0.text-center Llevar todo a un mortero y hacer un puré con los ingredientes restantes.
+
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            .tarjeta.bg-color-6.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/8.svg"
+                alt=""
+                style="width: 90px"
+              )
+              p.mb-0.text-center Moldear en cilindros y consumir caliente, con pollo precocido, cerdo o camarones sobre él.
 
 
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/10.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Paella
-                p.mb-0 Sartén ancho con asas, usado para preparar el plato típico español con arroz y otros ingredientes.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/11.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Tajin Marroquí
-                p.mb-0 Utensilio de barro con tapa cónica usado para preparar guisos tradicionales del Magreb.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/12.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Waflera
-                p.mb-0 Máquina con base en forma de rejilla, diseñada para cocinar waffles o gofres.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/13.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Plato para Escargots
-                p.mb-0 Plato francés tradicional para servir caracoles cocidos como entrada.
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4 Arroz #[em Congrí]
 
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/14.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Hangiri
-                p.mb-0 Utensilio japonés de madera usado para enfriar y mezclar arroz para sushi.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/15.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Molcajete
-                p.mb-0 Mortero de piedra mexicano con patas, usado para triturar o moler alimentos.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/16.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Pasapuré
-                p.mb-0 Utensilio para preparar purés, sopas y salsas de diversas consistencias.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/17.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Vaporera
-                p.mb-0 Olla que cocina alimentos al vapor al limitar el escape de aire y líquidos.
 
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/18.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Wok
-                p.mb-0 Recipiente chino redondo y metálico, usado con llama alta y lavado con agua caliente y brocha de bambú.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/19.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Prensa de Tortilla
-                p.mb-0 Utensilio manual para aplastar bolas de masa de maíz y formar tortillas.
-          .col-lg-3.mb-4(data-aos="zoom-in-down")
-            .rounded-top.rounded-bottom.custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/20.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Samovar para Buffet
-                p.mb-0 Recipiente metálico usado para preparar té, con una chimenea e infernillo en su interior.
+        .row.justify-content-center.align-items-stretch.my-5
+          .col-lg-6
+            .tarjeta.bg-color-2.p-4.h-100
+              figure.mb-3.mt-lg-4
+                img(src="@/assets/curso/tema2/9.svg", alt="alt", style="max-width: 76px")
+              p(data-aos="fade-up").mb-0 Es un arroz mixto que combina costilla de cerdo, frijoles negros, pimentones, ajo, grasa de cerdo, comino, laurel, pimienta, cebolla y orégano. La importancia de este plato radica en la fusión de sabores lograda en el salteado a partir de grasa de cerdo, así como en el color y aroma que aportan los frijoles.
+          .col-lg-6
+            figure
+              img(src="@/assets/curso/tema2/10.png", alt="alt")
 
 </template>
 
@@ -167,17 +146,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.custom-image-card
-  border: 1px solid #E8E8E8
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
-  transition: all 0.3s ease
-  &:hover
-    transform: translateY(-5px)
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15)
-  &__image
-    width: 100%
-    object-fit: cover
-  &__text
-    background-color: #fff
-</style>
+<style lang="sass"></style>

@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bg-color-sintesis.p-5.rounded-top.rounded-bottom
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="El mapa conceptual resume equipos, utensilios y herramientas de la cocina internacional en cuatro categorías: normas de higiene (lavado de manos, cabello recogido, ropa ajustada), normas de seguridad (área limpia, cuchillos seguros, extintores y botiquín), herramientas internacionales (caquelón, esterilla, laminadora, tajín, molcajete) y cocinas del mundo (Argentina, España, Turquía, México) con sus platos e ingredientes tradicionales. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis representa la gastronomía de América, destacando la diversidad cultural y geográfica de tres regiones: Norteamérica, Centroamérica y Suramérica. En Norteamérica se incluyen platos como Clam Chowder, barbacoa y jambalaya. Centroamérica resalta tacos, pupusas y mofongo. Por su parte, Suramérica incluye ceviche, feijoada, matambre, hornado y choripán, mostrando la riqueza culinaria de cada región.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
