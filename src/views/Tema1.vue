@@ -10,7 +10,7 @@
 
       .bg-full-width.bg-fondo-1
         .px-4.px-md-5.pb-5
-          .row.align-items-center.mb-4
+          .row.align-items-center.mb-5
             .col-lg-auto.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/tema1/1.svg", alt="alt")
@@ -20,7 +20,7 @@
           .titulo-tres.mb-4(data-aos="flip-up").mb-4
             h4 #[em Clam Chowder]
 
-          .row.justify-content-center.align-items-center.my-5
+          .row.justify-content-center.align-items-center.mb-5
             .col-lg-7
               p(data-aos="fade-up").mb-4 Esta rica sopa, consumida principalmente en invierno en Estados Unidos, debe elaborarse con una crema blanca a base de un salteado de tocineta, apio, papa en médium dice (corte en cuadros medianos de 1,2 cm), crema de leche, perejil fresco, cebolla cabezona, harina de trigo, laurel y, por supuesto, almejas.
 
@@ -32,10 +32,10 @@
                 img(src="@/assets/curso/tema1/2.png", alt="alt")
 
 
-      .titulo-tres.mb-4(data-aos="flip-up").mb-4
-        h4 #[em Barbacoa]
+          .titulo-tres.mb-4(data-aos="flip-up").mb-4
+            h4 #[em Barbacoa]
 
-      p(data-aos="fade-up").mb-4 Virginia (Estados Unidos) es el lugar donde, según la historia, se originó esta fantástica preparación de costillas de cerdo hechas a la parrilla de carbón en una cocción lenta, incluso tapadas para generar una cámara caliente que permite que la costilla obtenga una cocción profunda hasta el hueso. Cabe recordar que el cerdo en sus diferentes cortes debe consumirse bien asado.
+          p(data-aos="fade-up").mb-0 Virginia (Estados Unidos) es el lugar donde, según la historia, se originó esta fantástica preparación de costillas de cerdo hechas a la parrilla de carbón en una cocción lenta, incluso tapadas para generar una cámara caliente que permite que la costilla obtenga una cocción profunda hasta el hueso. Cabe recordar que el cerdo en sus diferentes cortes debe consumirse bien asado.
 
       TabsA.color-acento-botones.mb-5
         .tarjeta(titulo="Ingredientes")
