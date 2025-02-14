@@ -27,6 +27,7 @@ export default {
           id: 1,
           texto:
             '¿Cuál es el ingrediente clave que debe predominar en el <em>Clam Chowder</em>?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -57,6 +58,7 @@ export default {
           id: 2,
           texto:
             '¿Qué ciudad es conocida como el lugar de origen de la barbacoa?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -87,6 +89,7 @@ export default {
           id: 3,
           texto:
             '¿Qué tipo de masa se utiliza para preparar la <em>Tourtiere</em>?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -117,6 +120,7 @@ export default {
           id: 4,
           texto:
             '¿Qué ingrediente es opcional en el puré de papa de la causa peruana?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -146,6 +150,7 @@ export default {
         {
           id: 5,
           texto: '¿Qué tipo de salchicha es típica en la <em>Jambalaya</em>?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -176,6 +181,7 @@ export default {
           id: 6,
           texto:
             '¿Qué país considera el hornado de chancho como un plato tradicional?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -204,7 +210,8 @@ export default {
         },
         {
           id: 7,
-          texto: '¿Qué carne se enrolla en el matambre?',
+          texto: '¿Qué carne se enrolla en el <em>matambre</em>?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -234,6 +241,7 @@ export default {
         {
           id: 8,
           texto: '¿Qué ingredientes forman la base del arroz <em>congrí</em>?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -263,6 +271,7 @@ export default {
         {
           id: 9,
           texto: '¿El ceviche es originario exclusivamente de México?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -283,6 +292,7 @@ export default {
           id: 10,
           texto:
             '¿Las pupusas son similares a las arepas y son típicas de El Salvador?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -303,6 +313,7 @@ export default {
           id: 11,
           texto:
             '¿Qué condimento se utiliza para darle brillo a la masa superior de la <em>Tourtiere</em>?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -332,6 +343,7 @@ export default {
         {
           id: 12,
           texto: '¿Qué ingrediente le aporta color al arroz <em>congrí</em>?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -362,6 +374,7 @@ export default {
           id: 13,
           texto:
             '¿Qué se utiliza para sazonar el hornado de chancho antes de hornearlo?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -391,6 +404,7 @@ export default {
         {
           id: 14,
           texto: '¿Qué tipo de pan se utiliza en el choripán argentino?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -421,6 +435,7 @@ export default {
           id: 15,
           texto:
             '¿Qué técnica de corte se usa para las hojas grandes en la preparación de la causa?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
