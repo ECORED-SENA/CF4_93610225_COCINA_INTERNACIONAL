@@ -22,14 +22,14 @@
 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-7
-              p(data-aos="fade-up").mb-4 Esta rica sopa, consumida principalmente en invierno en Estados Unidos, debe elaborarse con una crema blanca a base de un salteado de tocineta, apio, papa en médium dice (corte en cuadros medianos de 1,2 cm), crema de leche, perejil fresco, cebolla cabezona, harina de trigo, laurel y, por supuesto, almejas.
+              p(data-aos="fade-up").mb-4 Esta rica sopa, consumida principalmente en invierno en Estados Unidos, debe elaborarse con una crema blanca a base de un salteado de tocineta, apio, papa en <em>médium dice</em> (corte en cuadros medianos de 1,2 cm), crema de leche, perejil fresco, cebolla cabezona, harina de trigo, laurel y, por supuesto, almejas.
 
               .tarjeta.p-4.bg-color-4
-                p(data-aos="fade-up").mb-0 Existen diferentes tipos de chowder. El mencionado anteriormente se conoce como el chowder propio de Nueva Inglaterra (Estados Unidos). Se caracteriza por ser de bastante contenido calórico, ideal para los días fríos. La clave de esta preparación está en la frescura de las almejas, cuya calidad debe predominar.
+                p(data-aos="fade-up").mb-0 Existen diferentes tipos de <em>chowder</em>. El mencionado anteriormente se conoce como el <em>chowder</em> propio de Nueva Inglaterra (Estados Unidos). Se caracteriza por ser de bastante contenido calórico, ideal para los días fríos. La clave de esta preparación está en la frescura de las almejas, cuya calidad debe predominar.
 
             .col-lg-5
               figure
-                img(src="@/assets/curso/tema1/2.png", alt="alt")
+                img(src="@/assets/curso/tema1/2.png", alt="alt").mt-4.mt-lg-0
 
 
           .titulo-tres.mb-4(data-aos="flip-up").mb-4
@@ -39,35 +39,41 @@
 
       TabsA.color-acento-botones.mb-5
         .tarjeta(titulo="Ingredientes")
-          div(style="background-color: #F3F0EA").p-4.h-100.rounded-top.rounded-bottom
-            h4 Ingredientes
 
-            ul.lista-ul--color
-              li.mb-0
-                i.fas.fa-check-circle
-                | 1 litro de agua.
-              li.mb-0
-                i.fas.fa-check-circle
-                | 50 gramos de sal.
-              li.mb-0
-                i.fas.fa-check-circle
-                | Un corte ancho de 2.000 gramos de costilla de cerdo entera.
+          .row.justify-content-center.align-items-stretch
+            .col-lg-8
+              .tarjeta(style="background-color: #F3F0EA").p-4.h-100
+                h4 Ingredientes
+
+                ul.lista-ul--color
+                  li.mb-0
+                    i.fas.fa-check-circle
+                    | 1 litro de agua.
+                  li.mb-0
+                    i.fas.fa-check-circle
+                    | 50 gramos de sal.
+                  li.mb-0
+                    i.fas.fa-check-circle
+                    | Un corte ancho de 2.000 gramos de costilla de cerdo entera.
+            .col-lg-4.d-none.d-lg-block
+              figure
+                img(src="@/assets/curso/tema1/3.png", alt="alt")
 
         .tarjeta(titulo="Proceso")
           
           .row.justify-content-center.align-items-stretch
-            .col-lg-7
+            .col-lg-8
               .tarjeta(style="background-color: #F3F0EA").p-4.h-100
                 h4 Proceso
 
                 p Dejar la costilla en la mezcla disuelta en agua y sal por 45 minutos. Recuerde que al llevarla a la parrilla, el carbón no debe presentar llama, sino un color rojo intenso, teniendo en cuenta las precauciones de seguridad. En la parrilla, estas costillas tomarán un mínimo de 30 minutos. En la parte final se les añadirá una salsa elaborada a partir de salsa de tomate, pimienta de cayena, una pequeña cantidad de vinagre blanco, azúcar morena, cebolla, puré de tomates frescos y ajo. Al fuego y previamente salteados los vegetales, se reducirá hasta obtener una salsa espesa y brillante.
             
-            .col-lg-5
+            .col-lg-4.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/tema1/3.png", alt="alt")
 
 
-      .titulo-tres.mb-4(data-aos="flip-up").mb-5
+      .titulo-tres.mb-4(data-aos="flip-up").mb-4.mb-lg-5
         h4 #[em Tourtiere]
 
       p(data-aos="fade-up").mb-4 Es una tarta salada de origen canadiense, típica de la ciudad de Quebec, que tiene una alta influencia de la cocina francesa.
@@ -75,7 +81,7 @@
       .row.justify-content-center.align-items-stretch.my-5
         .col-lg-6
           figure
-            img(src="@/assets/curso/tema1/4.png", alt="alt")
+            img(src="@/assets/curso/tema1/4.png", alt="alt").mb-4.mb-lg-0
 
         .col-lg-6
           .tarjeta.bg-color-5.p-4.h-100
@@ -100,7 +106,7 @@
       .titulo-tres.mb-4(data-aos="flip-up").mb-4
         h4 #[em Jambalaya]
 
-      p(data-aos="fade-up").mb-4 Esta preparación a base de arroz proviene de la ciudad de Louisiana en Estados Unidos. Presenta sabores predominantes de tomate, diversas pimientas, apio, cebolla y ajo, pollo, y una salchicha muy popular para este plato conocida como andouille o alguna salchicha picante.
+      p(data-aos="fade-up").mb-4 Esta preparación a base de arroz proviene de la ciudad de Louisiana en Estados Unidos. Presenta sabores predominantes de tomate, diversas pimientas, apio, cebolla y ajo, pollo, y una salchicha muy popular para este plato conocida como <em>andouille</em> o alguna salchicha picante.
 
 
       .row.justify-content-center.align-items-stretch.my-5
@@ -112,7 +118,7 @@
 
         .col-lg-6
           figure
-            img(src="@/assets/curso/tema1/4.png", alt="alt")
+            img(src="@/assets/curso/tema1/4.png", alt="alt").mt-4.mt-lg-0
 
 </template>
 

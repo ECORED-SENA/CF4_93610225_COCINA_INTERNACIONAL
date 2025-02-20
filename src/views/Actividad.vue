@@ -440,22 +440,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Concasse.',
+              texto: '<em>Concasse</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Small dice.',
+              texto: '<em>Small dice</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Chiffonade.',
+              texto: '<em>Chiffonade</em>.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Brunoise.',
+              texto: '<em>Brunoise</em>.',
               esCorrecta: false,
             },
           ],

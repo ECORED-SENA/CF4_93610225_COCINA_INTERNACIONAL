@@ -15,7 +15,7 @@
         p(data-aos="fade-up").mb-0 La cocina de Sur América destaca por su diversidad, influenciada tanto por las culturas indígenas como por las tradiciones europeas. Cada país aporta ingredientes únicos y técnicas ancestrales que enriquecen sus preparaciones.
 
 
-    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+    .titulo-tres.mb-4(data-aos="flip-up").mb-4
       h4 Ceviche
 
     .row.justify-content-center.align-items-center.mb-5
@@ -32,10 +32,10 @@
               p(data-aos="fade-up").mb-0 Es una perfecta combinación entre limón y sal, la frescura de un filete de pescado y los tonos propios que le aportan el ají y el aromático cilantro.
       .col-lg-5
         figure
-          img(src="@/assets/curso/tema3/3.png", alt="alt")
+          img(src="@/assets/curso/tema3/3.png", alt="alt").mt-4.mt-lg-0
 
 
-    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+    .titulo-tres.mb-4(data-aos="flip-up").mb-4
       h4 Matambre
 
     p(data-aos="fade-up").mb-4 Es una preparación típica argentina que consiste en sobrebarriga arrollada con huevos duros y algunos vegetales.
@@ -43,7 +43,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         figure
-          img(src="@/assets/curso/tema3/4.png", alt="alt")
+          img(src="@/assets/curso/tema3/4.png", alt="alt").mb-4.mb-lg-0
 
       .col-lg-7
         .tarjeta.p-4.bg-color-5.mb-4
@@ -68,7 +68,7 @@
     .row.justify-content-center.align-items-stretch.my-5
       .col-lg-3
         figure
-          img(src="@/assets/curso/tema3/5.png", alt="alt")
+          img(src="@/assets/curso/tema3/5.png", alt="alt").mb-4.mb-lg-0
 
       .col-lg-5
         .tarjeta.bg-color-7.p-4.h-100
@@ -85,7 +85,7 @@
           .p-4
             p.mb-0 Consiste en varias carnes de cerdo y de res, incluidas el charque, paio y calabresa (dos salchichas típicas brasileñas). Este plato también contiene el infaltable frijol negro, arroz blanco y naranja en rodajas sin cáscara, lo que lo convierte en el símbolo nacional de Brasil.
         .col-xl-auto(data-aos="fade-right")
-          img(src="@/assets/curso/tema3/6.png", style="max-width: 525px", alt="").m-auto.mt-xl-0.mt-4
+          img(src="@/assets/curso/tema3/6.png", style="max-width: 525px", alt="").mt-4.mt-lg-0
 
 
 
@@ -107,7 +107,7 @@
           
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema3/7.png", alt="alt")
+              img(src="@/assets/curso/tema3/7.png", alt="alt").mt-4.mt-lg-0
       .tarjeta(titulo="Ingredientes")
         .row.justify-content-center.align-items-stretch
           .col-lg-7
@@ -138,7 +138,7 @@
                   | Sal: cantidad necesaria.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema3/7.png", alt="alt")
+              img(src="@/assets/curso/tema3/7.png", alt="alt").mt-4.mt-lg-0
 
 
       .tarjeta(titulo="Proceso")
@@ -166,7 +166,7 @@
                   | Moldear el puré con ayuda de un molde cilíndrico y agregar el tomate y el aguacate en la parte superior. Servir frío.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema3/7.png", alt="alt")
+              img(src="@/assets/curso/tema3/7.png", alt="alt").mt-4.mt-lg-0
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -182,7 +182,7 @@
 
 
     .titulo-tres.mb-4(data-aos="flip-up").mb-4
-      h4 Choripán Argentino
+      h4 #[em Choripán] Argentino
 
     p(data-aos="fade-up").mb-4 Es una preparación de la cocina argentina, realmente muy fácil de realizar.
 
@@ -219,7 +219,7 @@
                   | Sal: cantidad necesaria.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema3/9.png", alt="alt")
+              img(src="@/assets/curso/tema3/9.png", alt="alt").mt-4.mt-lg-0
 
 
       .tarjeta(titulo="Proceso")

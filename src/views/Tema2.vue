@@ -24,7 +24,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema2/2.png", alt="alt")
+              img(src="@/assets/curso/tema2/2.png", alt="alt").mb-4.mb-lg-0
           .col-lg-7
             p(data-aos="fade-up").mb-4 Tortilla de maíz rellena de carne u otras materias primas cárnicas, vegetales como el pimentón, cebollas y los infaltables cilantro y tomate, productos legendarios en la cocina mexicana.
 
@@ -42,7 +42,7 @@
         p(data-aos="fade-up").mb-4 Hablar de mofongo es casi como hablar de la música salsa de Puerto Rico.
 
 
-        .row.justify-content-center.align-items-stretch.my-5
+        .row.justify-content-center.align-items-stretch.mb-5
           .col-lg-5
             .tarjeta.bg-color-5.p-4.h-100
               p(data-aos="fade-up").mb-3 #[strong Ingredientes para 4 personas]
@@ -71,7 +71,7 @@
                   | 100 ml de aceite de girasol.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema2/4.png", alt="alt")
+              img(src="@/assets/curso/tema2/4.png", alt="alt").mt-4.mt-lg-0
 
         p(data-aos="fade-up").mb-4 El proceso de preparación es:
 
@@ -92,7 +92,7 @@
                 alt=""
                 style="width: 90px"
               )
-              p.mb-0.text-center Pelar el ajo, cortarlo en brunoise fino (cuadros de 0,5 cm) y saltearlo junto con el tocino de cerdo previamente cortado en small dice (cuadros de 0,6 cm) y la mantequilla. Retirar y reservar.
+              p.mb-0.text-center Pelar el ajo, cortarlo en <em>brunoise fino</em> (cuadros de 0,5 cm) y saltearlo junto con el tocino de cerdo previamente cortado en <em>small dice</em> (cuadros de 0,6 cm) y la mantequilla. Retirar y reservar.
           
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             .tarjeta.bg-color-6.box-shadow.px-4.py-5.h-100
@@ -117,7 +117,7 @@
           h4 Arroz #[em Congrí]
 
 
-        .row.justify-content-center.align-items-stretch.my-5
+        .row.justify-content-center.align-items-stretch.mb-5
           .col-lg-6
             .tarjeta.bg-color-2.p-4.h-100
               figure.mb-3.mt-lg-4
@@ -125,7 +125,7 @@
               p(data-aos="fade-up").mb-0 Es un arroz mixto que combina costilla de cerdo, frijoles negros, pimentones, ajo, grasa de cerdo, comino, laurel, pimienta, cebolla y orégano. La importancia de este plato radica en la fusión de sabores lograda en el salteado a partir de grasa de cerdo, así como en el color y aroma que aportan los frijoles.
           .col-lg-6
             figure
-              img(src="@/assets/curso/tema2/10.png", alt="alt")
+              img(src="@/assets/curso/tema2/10.png", alt="alt").mt-4.mt-lg-0
 
 </template>
 
