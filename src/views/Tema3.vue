@@ -160,7 +160,7 @@
                   | Adicionar mayonesa, cilantro picado en chiffonade (corte en tiras finas), zumo de limón y sal.
                 li.mb-1
                   i.fas.fa-check-circle
-                  | Cortar en concasse el tomate y en médium dice el aguacate.
+                  | Cortar en #[em concasse] el tomate y en #[em médium] dice el aguacate.
                 li.mb-0
                   i.fas.fa-check-circle
                   | Moldear el puré con ayuda de un molde cilíndrico y agregar el tomate y el aguacate en la parte superior. Servir frío.

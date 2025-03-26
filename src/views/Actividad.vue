@@ -42,7 +42,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Papas en médium dice.',
+              texto: 'Papas en <em>médium</em> dice.',
               esCorrecta: false,
             },
             {
