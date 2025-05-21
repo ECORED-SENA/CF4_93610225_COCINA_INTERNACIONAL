@@ -216,7 +216,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carlos Julián Ramirez Benitez',
+          nombre: 'Carlos Julián Ramírez Benitez',
           cargo: 'Diseñador de contenidos',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
