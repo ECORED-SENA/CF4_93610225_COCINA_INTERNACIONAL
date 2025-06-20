@@ -38,18 +38,89 @@ export default {
         numero: '1',
         titulo: 'Cocina de Norte América',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: '<i>Clam Chowder</i>',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: '<i>Barbacoa</i>',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: '<i>Tourtiere</i>',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: '<i>Jambalaya</i>',
+            hash: 't_1_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo: 'Cocina de Centro América',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tacos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: '<i>Mofongo</i>',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Arroz <i>Congrí</i>',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Cocina de Sur América',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Ceviche',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Matambre',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Hornado de Chancho',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Feijoada',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Causa',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: '<i>Choripán</i> Argentino',
+            hash: 't_3_6',
+          },
+        ],
       },
     ],
     subMenu: [

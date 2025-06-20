@@ -7,21 +7,23 @@
         span 2
       h1 Cocina de Centro América
 
-
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-5
 
-        .row.align-items-center.mb-5
+        .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema2/1.svg", alt="alt")
           .col-lg
             p(data-aos="fade-up").mb-0 La cocina de Centro América se distingue por su uso de ingredientes autóctonos como el maíz, el plátano y las especias, que se combinan para crear platos llenos de sabor y tradición.
 
-        .titulo-tres.mb-4(data-aos="flip-up").mb-4
-          h4 Tacos
+        Separador
 
-        .row.justify-content-center.align-items-center.mb-5
+        #t_2_1
+        .titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 2.1 Tacos 
+
+        .row.justify-content-center.align-items-center
           .col-lg-5
             figure
               img(src="@/assets/curso/tema2/2.png", alt="alt").mb-4.mb-lg-0
@@ -35,12 +37,14 @@
                     img(src="@/assets/curso/tema2/3.svg", alt="alt")
                 .col-lg
                   p(data-aos="fade-up").mb-0 La comida popular mexicana tiene gran aceptación a nivel mundial y parte del principio indígena del uso del maíz, como se puede constatar en la preparación de los tacos.
+        
+        Separador
 
-        .titulo-tres.mb-4(data-aos="flip-up").mb-4
-          h4 Mofongo
+        #t_2_2
+        .titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 2.2 #[i Mofongo]
 
         p(data-aos="fade-up").mb-4 Hablar de mofongo es casi como hablar de la música salsa de Puerto Rico.
-
 
         .row.justify-content-center.align-items-stretch.mb-5
           .col-lg-5
@@ -75,7 +79,7 @@
 
         p(data-aos="fade-up").mb-4 El proceso de preparación es:
 
-        div.row.justify-content-center.align-items-stretch.mb-5
+        div.row.justify-content-center.align-items-stretch
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             .tarjeta.bg-color-6.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(
@@ -112,12 +116,13 @@
               )
               p.mb-0.text-center Moldear en cilindros y consumir caliente, con pollo precocido, cerdo o camarones sobre él.
 
+        Separador
 
-        .titulo-tres.mb-4(data-aos="flip-up").mb-4
-          h4 Arroz #[em Congrí]
+        #t_2_3
+        .titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 2.3 Arroz #[em Congrí]
 
-
-        .row.justify-content-center.align-items-stretch.mb-5
+        .row.justify-content-center.align-items-stretch
           .col-lg-6
             .tarjeta.bg-color-2.p-4.h-100
               figure.mb-3.mt-lg-4

@@ -20,8 +20,10 @@ export default {
       tema: 'Diversidad gastronómica de américa',
       titulo: 'Cuestionario',
       introduccion:
-        'Identificar las características principales de las preparaciones tradicionales de las cocinas de Norteamérica, Centroamérica y Sudamérica.',
+        '<b> Objetivo:</b> identificar las características principales de las preparaciones tradicionales de las cocinas de Norteamérica, Centroamérica y Sudamérica.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
